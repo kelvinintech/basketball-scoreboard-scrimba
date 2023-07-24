@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        
+        <!-- container holds HOME and GUEST section -->
+        <div class="container">
+            
+            
+            <!-- home section   -->
+            <div class="column">
+                <h3 class="homelocation">HOME</h3>
+                <h2 id="homescore" onclick="homescore()"></h2>
+                    <button onclick="addBy1()">+1</button>
+                     <button onclick="addBy2()">+2</button>
+                      <button onclick="addBy3()">+3</button>
+            </div>
+            
+            
+            <!-- guest section              -->
+            <div class="column">
+                <h3 class="guestlocation">GUEST</h3>
+                <h2 id="guestscore" onclick="guestscore()"></h2>
+                  <button onclick="incrementBy1()">+1</button>
+                     <button onclick="incrementBy2()">+2</button>
+                      <button onclick="incrementBy3()">+3</button>
+            </div>
+            
+           
+           <!--     reset button            -->
+        
+        
+        </div>
+        
+        
+        <br>
+           <div class="reset">
+                <button id="resetbutton" onclick="resetbutton()">RESET</button>
+            </div>
+                
+            
+        <script src="index.js"></script>
+    </body>
+</html>
